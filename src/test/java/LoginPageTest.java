@@ -40,8 +40,8 @@ public class LoginPageTest {
     @Test
     public void correctLoginTest(){
         loginPage
-                .inputLogin("salesrep_crm3@oce-pipeline-2.com.clnmobile")
-                .inputPassword("crm1OCE1")
+                .inputLogin("test@test.com")
+                .inputPassword("testpassword")
                 .clickOnLoginButton()
                 .checkIfHomePageIsOpen();
     }
